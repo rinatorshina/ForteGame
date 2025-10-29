@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="MUSIC STATES" ID="{A9402811-5D65-4E1D-B270-3B87DD6FFCE1}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

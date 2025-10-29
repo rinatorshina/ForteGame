@@ -1,0 +1,3229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58E97663-BB1E-478E-A290-A5E79C2AC437}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{58E97663-BB1E-478E-A290-A5E79C2AC437}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="MUSIC" ID="{2C032B45-0DF0-47C4-BCB9-29B2AF95414A}" ShortID="258270586">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{E382D8DF-3062-4E9D-A60E-2CC321E925C9}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{FE1DCE79-AE72-46DC-AF2D-0F121E6BD349}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MAIN GAMEPLAY" ID="{B4A6044E-5A14-426E-A613-09D29039DF2C}" ShortID="487681338">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{C9EA4DA5-2EF3-41DD-8144-1D8E96A0B205}" ShortID="812604574">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{821235F8-0B50-4185-9A72-B5C0339CEB98}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{31B228F8-F704-4711-BAC2-8D198F6D6520}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="SECTION A" ID="{DDD47046-963D-4B50-AA8F-F7C3860AEEE7}" ShortID="1021345623">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="593478.166666667"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="138"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_ACCORDION" ID="{922F89AD-0427-476B-B6EC-09913A52C90B}" ShortID="488929254">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8ED187DA-2DE3-470A-868B-49F715459D91}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_ACCORDION" ID="{BED4D0E4-7E97-4DBA-9517-9BABD9809420}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_ACCORDION.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="397432458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{934DF2B1-9BC4-403A-B873-AD5E1761C107}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_ACCORDION" ID="{E65E583E-6BCA-41AB-869F-35EE91E0BDE4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_ACCORDION" ID="{BED4D0E4-7E97-4DBA-9517-9BABD9809420}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_BRASS" ID="{965C21F3-0B82-442B-A43C-A75C77C94D99}" ShortID="642906280">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{68D80FDD-AD13-457C-BCD9-D5989D33CA29}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<MusicTransition Name="Transition" ID="{287FD461-17F8-4139-99E1-031D18045C7A}">
+																	<TransitionInfo/>
+																</MusicTransition>
+															</ChildrenList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_BRASS" ID="{8FED800E-069A-45FE-BA26-AFCBE5A53F88}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_BRASS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="831344305"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C5F584F1-DB49-4A76-8CBC-E36F21BC401E}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{838F44C9-6C03-4F7C-9CE7-AEDFCF28FF81}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_BRASS" ID="{0C4E20FE-F224-4F89-A803-06A7F909BDEC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_BRASS" ID="{8FED800E-069A-45FE-BA26-AFCBE5A53F88}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_CLARINET" ID="{00E12109-E038-4E4D-A834-E1550D2957C8}" ShortID="853585399">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{0B46359A-5BC2-412B-96FD-775987433495}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_CLARINET" ID="{D24D1027-3DAC-4FED-BF2B-096260A1D003}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_CLARINET.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="125719140"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{331B03BE-4750-43E3-840B-93075DCE15BE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_CLARINET" ID="{64364514-E629-434C-BF0F-66C19D2B7F25}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_CLARINET" ID="{D24D1027-3DAC-4FED-BF2B-096260A1D003}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_GLOCK" ID="{EFC9418A-D430-4A91-9955-AB9CBA11DDB2}" ShortID="761303079">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5635DBEB-9F3E-4260-ACA1-B928589D1E56}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_GLOCK" ID="{FDDF7414-C994-4EF2-AA10-4D54A31C30DC}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_GLOCK.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="149318057"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7B2642C5-4A0C-40EE-9616-79D3B488D21D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_GLOCK" ID="{E7D74AA6-2FC1-419F-B661-7ADBAE25A013}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_GLOCK" ID="{FDDF7414-C994-4EF2-AA10-4D54A31C30DC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MANDOLIN" ID="{61201531-39FE-441C-A71A-D293532E7A33}" ShortID="463756273">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{66A86C25-CDC8-4968-928F-705AB6B977F9}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MANDOLIN" ID="{ECF1420B-022A-4572-B4EA-2FCE8747E002}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MANDOLIN.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833831699"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E5AAB542-AEB3-4FE1-88AF-D164A1B9ACD0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MANDOLIN" ID="{0DFB55DD-9AA4-4D66-905A-00C4386F2CD4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MANDOLIN" ID="{ECF1420B-022A-4572-B4EA-2FCE8747E002}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E28BB530-78F4-4F26-80EC-11E5C06BA3CA}"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MARIMBA" ID="{155E485E-BC0D-407A-B5F0-138892F91ACB}" ShortID="183681803">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{102B8AAE-8D45-49AD-B47D-1D805A2C33D1}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MARIMBA" ID="{1A4EFD49-3BA8-4E99-AF9C-1FA7E01E02BF}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MARIMBA.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="72708488"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6A09F61A-93FF-4FAD-A72A-4CF92E41BB20}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MARIMBA" ID="{C8D0B828-2435-416C-9A34-BCE554FCA8BD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MARIMBA" ID="{1A4EFD49-3BA8-4E99-AF9C-1FA7E01E02BF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5EB2684F-9817-4F2D-BEFE-1FFE313706AA}"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MISC_PERC" ID="{32423252-22A1-4E20-BA36-EE7B697232DF}" ShortID="495146236">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{C811FED5-BB3B-4124-A36C-89275F69CCA3}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MISC_PERC" ID="{1B0A3DEF-DA85-4E7A-B2FC-204C75479D49}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MISC_PERC.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="529574768"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5EC9B00A-D623-4095-B0D6-06ECD9F71A4B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MISC_PERC" ID="{F3D0EBAB-8B68-4E01-B034-AB3AB9D8C93D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_MISC_PERC" ID="{1B0A3DEF-DA85-4E7A-B2FC-204C75479D49}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIANO" ID="{7E8829BD-297D-4287-8356-BE013A3FEE05}" ShortID="56623362">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{CF8DBADC-B91E-44D7-B1F0-D430BBDA5D96}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIANO" ID="{41029137-83BB-4C70-9117-1392734E6031}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="639695351"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DD5C69B3-F3B3-43F9-A98F-752462D0F83E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIANO" ID="{869AC9E8-AAE1-4875-9C7E-4B4B0EC8CA86}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIANO" ID="{41029137-83BB-4C70-9117-1392734E6031}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{12EBDA8B-E44A-4404-920E-4D2D16B97088}"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIZZ_STRINGS" ID="{65EB5B87-D7A1-4F6F-86C8-B9E84780AD17}" ShortID="1052258380">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8AF62A64-AAC6-4944-A71C-EF4F9EF37571}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIZZ_STRINGS" ID="{01D90368-9D7B-44F8-A405-E2AF366B4A9E}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIZZ_STRINGS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="909082449"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3223254B-70ED-4241-8774-E3ED894A9F59}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIZZ_STRINGS" ID="{19DA129B-5053-4FD4-BD4D-C800C5235095}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_PIZZ_STRINGS" ID="{01D90368-9D7B-44F8-A405-E2AF366B4A9E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4DF81FF7-AC7C-47DE-AC72-98F6541442F7}"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_SUS_STRINGS" ID="{A9C0D58A-91C4-4ED9-BA8F-73561BD5FFF2}" ShortID="24163656">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{678FF6BF-804F-4956-BBBC-CC86A7767943}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_SUS_STRINGS" ID="{9FBF7EC0-7C90-4521-A3A4-7CD91D2717E6}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_SUS_STRINGS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="138897864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3E7ADC31-9F49-4965-A3F2-A0C1D47BB639}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_SUS_STRINGS" ID="{A2069EEF-CC66-4844-86AC-EAA6876F86AB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_SUS_STRINGS" ID="{9FBF7EC0-7C90-4521-A3A4-7CD91D2717E6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F2422F0A-7308-44A5-B585-D04C6C69964A}"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_TAMBOURINE" ID="{2B82568C-0B5E-4D0E-80A6-6023604A524E}" ShortID="247886941">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{D8D88B41-EC2E-4120-BD15-034E0DCCF779}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_TAMBOURINE" ID="{7D199B0A-41C9-445A-8F25-7DB94B15BD6D}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_TAMBOURINE.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898711199"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{97351E4F-AB82-4EEC-B652-23760C8930CE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_TAMBOURINE" ID="{98F13630-0352-4110-8CC2-9BFB51B691DB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_TAMBOURINE" ID="{7D199B0A-41C9-445A-8F25-7DB94B15BD6D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_UPRIGHT_BASS" ID="{5CE3B4D2-E272-4E09-AAB1-507E177804BB}" ShortID="911973463">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{0EB870E1-9F27-42D1-88A4-50C0333F146D}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_UPRIGHT_BASS" ID="{016A33BF-6CE8-43CA-8378-2261CD5DCC95}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_UPRIGHT_BASS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="431214940"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4A9975EE-C75E-40EE-8817-736C4B0A57FF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_UPRIGHT_BASS" ID="{9E661948-88DD-4D4B-87E2-1C3992749E52}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_UPRIGHT_BASS" ID="{016A33BF-6CE8-43CA-8378-2261CD5DCC95}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_WINDS" ID="{A3BCFCF9-4337-4003-87B5-F4665F34FE88}" ShortID="965913835">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{E20EC207-4E06-4088-85F0-7E38CEF6F3EF}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_WINDS" ID="{6F99023F-BB51-47B8-9070-DB493F2834B4}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_WINDS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="892778189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{15E05429-EF33-4646-82D9-414ED13488AA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_WINDS" ID="{3A6C53A7-AA96-493A-98C9-155425612952}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="45652.1666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="869.565217391304"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_A_MUS_138_WINDS" ID="{6F99023F-BB51-47B8-9070-DB493F2834B4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{27B91313-9440-4CA8-8970-404949ADCCE7}"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{27B996CB-AC89-4E22-85DD-5BB8E580A5AF}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2173.91304347826"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3F96873A-BC63-488F-AD4F-639B091E28BF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="43913.0434782609"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="SECTION C" ID="{DDEB6BBA-B70D-433A-A4E7-83E145773B63}" ShortID="689217617">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="58888.6459643639"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="138"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_ACCORDION" ID="{346C6B70-E6FB-4DED-AF87-599E857DB98A}" ShortID="822696523">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{858735E5-C7F4-4613-A5BC-C920BD1B5AB6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_ACCORDION" ID="{3DEBAEA4-9910-48B5-8BC7-EA797509C488}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_ACCORDION.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="917327746"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DA74733C-392A-4A47-B3DE-E78CC6EFBE78}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_ACCORDION" ID="{B56A5697-FD55-418F-B8C0-1D609EF273BC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_ACCORDION" ID="{3DEBAEA4-9910-48B5-8BC7-EA797509C488}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_BRASS" ID="{77B72AC1-31BB-4CAB-9EBE-FA095140F5B8}" ShortID="786326338">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{AA387ED5-B137-4D2B-A69F-72789161BD9F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_BRASS" ID="{B55C4D27-24C1-4408-B143-B2A0A51DEE31}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_BRASS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1000034022"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4FEBD01B-2F0A-440D-8B4E-AA83BB90B6A0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_BRASS" ID="{419DCE3A-B236-40D4-ADD0-3CBBC76FB0DE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_BRASS" ID="{B55C4D27-24C1-4408-B143-B2A0A51DEE31}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_CLARINET" ID="{5E2AE1F6-6D02-4E55-A41D-2FD914614CD4}" ShortID="822077924">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{613F9DC6-8F23-44C2-A6EC-88D60D6B92B1}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_CLARINET" ID="{0355AC41-A761-485B-A147-BF6032CD47B2}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_CLARINET.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="367707193"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9B45F4B2-CA20-4AB2-A53D-3260A168A4F9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_CLARINET" ID="{F9084089-8719-408D-8794-DE54DEBBE6B3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_CLARINET" ID="{0355AC41-A761-485B-A147-BF6032CD47B2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_GLOCK" ID="{FCB82FCC-0CBD-49F1-B197-C00560017960}" ShortID="928630585">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{52D12441-5D1C-423E-B432-649898179A15}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_GLOCK" ID="{A77B34AE-2E77-4CBA-BC5E-11C4CE7B5706}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_GLOCK.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="896590306"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E169A9A3-3949-4B5B-A4AF-37AD89A63319}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_GLOCK" ID="{D298A9BB-A35F-4979-9AFC-4F31FEA9F845}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_GLOCK" ID="{A77B34AE-2E77-4CBA-BC5E-11C4CE7B5706}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MANDOLIN" ID="{F6C4D3EF-8A13-447A-A0FC-815DB042CC3F}" ShortID="149490947">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{330D8BC1-0341-4B4D-A365-EE42F0FCFD7A}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MANDOLIN" ID="{04FC00E6-5743-4044-98BF-BDB5221C6513}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MANDOLIN.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="102777030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5C41C494-BA0E-4191-A685-4A79E54F1C43}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MANDOLIN" ID="{6B675CC1-8E10-40C0-BFBD-15508C559497}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MANDOLIN" ID="{04FC00E6-5743-4044-98BF-BDB5221C6513}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MARIMBA" ID="{C0D07C3B-C1F6-4938-BDFC-C8702B413C86}" ShortID="170199349">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8F991425-6575-4F24-8C01-ACA02FDE84AB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MARIMBA" ID="{6F174ECC-AABA-4FA3-943F-1445AA869256}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MARIMBA.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="2653518"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A2F72837-55A4-43A7-8FFA-CCEBC29BDFE2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MARIMBA" ID="{FF433982-C8F2-43C0-97A9-8C063FFEB84F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MARIMBA" ID="{6F174ECC-AABA-4FA3-943F-1445AA869256}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MISC_PERC" ID="{86521A51-6031-4924-9C89-B43361A50A02}" ShortID="747624652">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5811A0EE-E135-405B-AA31-DD2A98619724}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MISC_PERC" ID="{68705176-FD09-4B5B-9702-D5B40102FC1E}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MISC_PERC.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="179981218"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4A3D13FF-6262-4A3A-8351-7DB2118B3676}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MISC_PERC" ID="{BE5B0FB4-EFB7-47A3-8ECC-DA4716C54766}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_MISC_PERC" ID="{68705176-FD09-4B5B-9702-D5B40102FC1E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIANO" ID="{E353FA4E-ECA1-415D-9AF0-88FFCCDF73D4}" ShortID="856944740">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{66FED504-DBAE-4603-B62F-8B4A01FE6B54}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIANO" ID="{B4C7625A-E3E8-45ED-9F9C-2CC6EBA53F45}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="303833922"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{542DBC1F-303C-4EA3-98D4-675669C4020D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIANO" ID="{8D0761E2-E573-4D5F-B8A9-6ECCED2DF2CA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIANO" ID="{B4C7625A-E3E8-45ED-9F9C-2CC6EBA53F45}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIZZ_STRINGS" ID="{D944C70B-9133-47D9-863D-F4C472BBD5F9}" ShortID="473827481">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{018CFB2B-ADB5-4FDD-889F-FD8C63B24B44}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIZZ_STRINGS" ID="{9B0B20CF-62A7-4FC2-9697-7FE42425CBEF}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIZZ_STRINGS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328017078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{EAF7858A-E084-40DE-A50B-B7F429D865B8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIZZ_STRINGS" ID="{CA587CD7-06A4-4807-AA59-24EFCA477EE5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_PIZZ_STRINGS" ID="{9B0B20CF-62A7-4FC2-9697-7FE42425CBEF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_SUS_STRINGS" ID="{449804A6-874A-43EA-8645-A27BA2EF7175}" ShortID="457998165">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8F828E58-9D9B-4E4D-969A-A0FC2FD5C61A}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_SUS_STRINGS" ID="{A988917D-FA26-4F53-BE71-6F8C722FFCC3}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_SUS_STRINGS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="104424604"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AEE4368F-A902-4466-B56C-78229D506376}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_SUS_STRINGS" ID="{FBDA652B-1382-4C7D-A736-0DA875B679F8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_SUS_STRINGS" ID="{A988917D-FA26-4F53-BE71-6F8C722FFCC3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_TAMBOURINE" ID="{96BB1A76-E172-4A42-B03D-42B584D16CC8}" ShortID="114096156">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{3C3A7BD0-6EEC-4062-9874-5B1038A32EF0}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_TAMBOURINE" ID="{194D4203-1421-46B3-B439-37C6AE1F26F4}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_TAMBOURINE.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1066290595"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{377DD447-83C4-4401-AF96-DB1853D5C821}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_TAMBOURINE" ID="{A85C983C-AB2A-4C16-8E8A-8705D03B55B2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_TAMBOURINE" ID="{194D4203-1421-46B3-B439-37C6AE1F26F4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_UPRIGHT_BASS" ID="{C611605B-71F0-4439-BC0B-C1A167112D3A}" ShortID="842829619">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{21ABE37B-F8D3-42D9-9347-F535786077DE}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_UPRIGHT_BASS" ID="{C9F7C681-C8EF-4FC0-A8D0-BD58D7F4D1BE}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_UPRIGHT_BASS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="979893910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{67753593-F86C-4C88-A9EA-16F90C383430}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_UPRIGHT_BASS" ID="{9FF8B3EE-E5A6-4452-B64D-32C4183BA5E3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_UPRIGHT_BASS" ID="{C9F7C681-C8EF-4FC0-A8D0-BD58D7F4D1BE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_WINDS" ID="{0C9DC2DF-8B81-4615-AD4C-E14E0CDBC8EA}" ShortID="69360494">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{B6629525-0A82-4320-8115-2CFBDBACCCB6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_WINDS" ID="{29EE42F4-621D-4A38-A6C5-D604E3035A25}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_WINDS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826928850"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5B221B8F-3D6B-42D6-9EFF-69F96DDDAA9F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_WINDS" ID="{E3475FCC-7448-4AF1-B2B1-FEE193628FDA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="46956.5208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1304.34782608696"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_C_MUS_138_WINDS" ID="{29EE42F4-621D-4A38-A6C5-D604E3035A25}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A65CA47D-36CB-483F-B2FA-16E0A7E59F98}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2608.69565217391"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E4BEA71B-A760-4960-854E-AD44BFBB85FE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="44347.8260869565"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="SECTION B" ID="{A418BDFB-4D1B-4199-84FF-09E627C22C14}" ShortID="306059214">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52717.3967391304"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="138"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_ACCORDION" ID="{90C33E04-6386-40CD-ABEF-B714F6CABA61}" ShortID="853388112">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{D2DC9B42-057C-4BE3-ACA0-C71E805800C6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_ACCORDION" ID="{E586765C-6350-422B-8B8A-7A15CDD2A063}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_ACCORDION.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757647121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0DD3A061-9B88-4D09-BC53-E5685CAD6EBE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_ACCORDION" ID="{C47B41B2-0833-441D-8489-875D50B66C08}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_ACCORDION" ID="{E586765C-6350-422B-8B8A-7A15CDD2A063}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_BRASS" ID="{47D9492A-EEE4-4920-B710-6F79600DF529}" ShortID="613927243">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{631DE038-1683-4B22-A56E-189C4C81A2C8}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_BRASS" ID="{F451D199-4560-4D8E-B46E-DBF048AFF117}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_BRASS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="554130559"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C6670FFF-3648-48C3-BC49-E06776FC2519}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_BRASS" ID="{F57534B6-3424-4043-8C1C-5DD49CD70E81}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_BRASS" ID="{F451D199-4560-4D8E-B46E-DBF048AFF117}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_CLARINET" ID="{134A37BA-7AD0-401A-BF70-66CBD016A238}" ShortID="682472420">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{459FF05E-2C3E-4636-ABDA-1E30E051F0AE}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_CLARINET" ID="{4EC84D49-9BD8-4D82-9733-A817C081575C}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_CLARINET.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="288781121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{13BB7F0C-3862-40B4-810C-DFD4B91F283B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_CLARINET" ID="{B2A302C2-04B2-49C6-A2E6-E849648B4B0D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_CLARINET" ID="{4EC84D49-9BD8-4D82-9733-A817C081575C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_GLOCK" ID="{542A47D5-6B72-4E73-91D9-D4A154D7EEE8}" ShortID="1020870168">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{89560A84-7566-41BC-8979-F1D698FA4C50}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_GLOCK" ID="{ED640FA2-CE33-469B-9206-37D78C4A407C}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_GLOCK.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="253537842"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{39494CE3-8D1A-4866-899F-D6D6CB3701FE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_GLOCK" ID="{65283C75-AE9E-4E1A-978B-DE2107A99D0B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_GLOCK" ID="{ED640FA2-CE33-469B-9206-37D78C4A407C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MANDOLIN" ID="{A3C56A3C-4577-434E-9022-C7377115A204}" ShortID="299305430">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{6892A32E-CCBD-4087-BA2D-1DC69CE4EA2B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MANDOLIN" ID="{589156E5-1EA1-49A3-85BA-6FAB0D5A4026}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MANDOLIN.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="903147286"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E7CF1925-B841-4355-8764-3ADAD15D3323}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MANDOLIN" ID="{B43A0922-2A4D-4698-83C1-0F91E37C8B75}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MANDOLIN" ID="{589156E5-1EA1-49A3-85BA-6FAB0D5A4026}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MARIMBA" ID="{4C821C69-8641-43AD-B701-D4BBC75C8D40}" ShortID="470250089">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{C107CD75-B00F-4D57-B2E6-B14370DA8E4D}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MARIMBA" ID="{42C9252A-FF42-487D-81F6-60794FA1C73C}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MARIMBA.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="558243246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2CB70EDF-4849-47A4-B55D-8B5331C8E66C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MARIMBA" ID="{4C09B063-1513-46B2-91EF-6C0AD58F7705}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MARIMBA" ID="{42C9252A-FF42-487D-81F6-60794FA1C73C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MISC_PERC" ID="{3794A12A-B1C2-4600-BD9D-5BECFCF58D54}" ShortID="355575813">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{79F2781B-7B3A-4495-A0B6-46BFF28B02E0}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MISC_PERC" ID="{D804B085-5AFD-41DF-ABF0-C7ED9FD6D916}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MISC_PERC.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="937776598"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6218C5FB-F2C7-4F4A-958E-911699D3C9C8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MISC_PERC" ID="{BC4E63DD-5FC0-41F6-AFB2-D8466620D652}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_MISC_PERC" ID="{D804B085-5AFD-41DF-ABF0-C7ED9FD6D916}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIANO" ID="{671C69EB-E4DE-4BE6-A740-E43BC9798012}" ShortID="346397867">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{97858015-96EF-4813-96DE-6CB754ECA9B1}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIANO" ID="{886E5CCC-BC23-4F32-9EF4-B8F98EE55EFB}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="557540035"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{76FC7C48-4258-45B9-B518-FAFC9CB71242}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIANO" ID="{DAF5C86D-E4F2-4578-982F-C8CC66943B99}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIANO" ID="{886E5CCC-BC23-4F32-9EF4-B8F98EE55EFB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIZZ_STRINGS" ID="{99CB45B8-E8B6-4AE2-939D-C3E12C70311A}" ShortID="749400194">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{26B39946-B4B0-4008-B4B5-6E98FBAFFEDA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIZZ_STRINGS" ID="{9F310F91-D81C-462F-B80D-79A9E5656B63}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIZZ_STRINGS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828993159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2632C79B-7DFF-4B1E-A30C-8A87ADADB9BC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIZZ_STRINGS" ID="{EE023346-99AA-4934-9B9E-C8A923BC7021}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_PIZZ_STRINGS" ID="{9F310F91-D81C-462F-B80D-79A9E5656B63}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_SUS_STRINGS" ID="{9664D25B-A95A-411B-95EA-3ABC118B1159}" ShortID="900713824">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{6EF59CFB-8674-4123-A1C9-EC82F9739318}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_SUS_STRINGS" ID="{3FB823A9-E9EC-4EEB-AF27-DBAE70E535FE}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_SUS_STRINGS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="317841021"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7E49D93A-627B-4985-8C58-7A4653938C6A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_SUS_STRINGS" ID="{51D17E9C-97F1-4E4A-A350-494D5CF90184}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_SUS_STRINGS" ID="{3FB823A9-E9EC-4EEB-AF27-DBAE70E535FE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_TAMBOURINE" ID="{7452C376-8594-4736-86A8-5B1EE6ED5CBE}" ShortID="657118957">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F1E51ADF-FE0B-453F-91BA-554DE701E060}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_TAMBOURINE" ID="{94D3F766-81AE-40EC-A8C6-D38E0956C7F2}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_TAMBOURINE.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="203749836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{320D1568-0A3A-407E-AC99-A18F7D062046}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_TAMBOURINE" ID="{AD8FB653-A0BD-4F71-AE0B-FDB35974C3DD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_TAMBOURINE" ID="{94D3F766-81AE-40EC-A8C6-D38E0956C7F2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_UPRIGHT_BASS" ID="{BA509A37-D329-40F8-9170-1FE1E1530A6C}" ShortID="761077269">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8DF6929E-5019-4D1B-A147-42AEC332172E}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_UPRIGHT_BASS" ID="{669F1F76-452A-499D-B344-E47DAE6C8B23}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_UPRIGHT_BASS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1042792425"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BC677722-16F4-4C6B-8898-F1BEF3D75357}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_UPRIGHT_BASS" ID="{D5376BFE-E713-443A-8FE1-1E694CFC5EDB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_UPRIGHT_BASS" ID="{669F1F76-452A-499D-B344-E47DAE6C8B23}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_WINDS" ID="{65F920B0-D8C7-403E-AC23-5359399782DD}" ShortID="835697630">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{D1805C1B-DCC0-4CE0-82EB-9B30C82D0C8D}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_WINDS" ID="{F849BC23-D0FE-487C-B582-5D7BE34FCCB8}">
+													<Language>SFX</Language>
+													<AudioFile>FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_WINDS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="633019301"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F819418C-E4B6-41EF-8875-55106D005275}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_WINDS" ID="{F49E90C7-84DC-48C9-A88D-3907AEC20F66}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48260.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2065.21739130435"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FORTE_MAIN_GAMEPLAY_SEC_B_MUS_138_WINDS" ID="{F849BC23-D0FE-487C-B582-5D7BE34FCCB8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CEEAF4BB-9F5A-4788-9627-3E9DFB100F4F}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="3369.5652173913"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5354E0E8-4045-4BF8-BC2B-E3B00F699F34}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46413.0434782609"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="CONCERT" ID="{15E9C8EB-076D-4329-BFE0-612C3CEA7DCC}" ShortID="894956372">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="EndPosition" Type="Real64" Value="46299.9733409938"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_ACCORDION" ID="{F8FD47B3-0B30-41F3-9D2D-3CECEC1EC515}" ShortID="310100041">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{597DDB98-9A69-48AC-822E-9071F3484101}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_ACCORDION" ID="{B5ACA280-5369-4D00-BC58-861EE4452121}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_ACCORDION.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157709431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{08067124-2177-4E14-81BE-1F16E4237E83}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_ACCORDION" ID="{B2B135B8-575D-4EB1-A448-A4CD453778DD}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="233.539881154789"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_ACCORDION" ID="{B5ACA280-5369-4D00-BC58-861EE4452121}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{21095C19-E89C-4B32-A6B5-87562CDE42FD}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{EBA4F43C-2FB0-4B3C-A67E-7D1D9D09C04F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{F5B486FA-03FB-418A-B304-8237D4EC8F56}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_BRASS" ID="{D5B46FAB-8092-4DD9-AD00-E107755D40D3}" ShortID="740487646">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{73724E2A-8E1C-4CED-996C-0BE5EEC7C18A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_BRASS" ID="{5E1D647C-45A5-43A4-9745-B7B928BE307A}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_BRASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="386825144"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8D80F95F-C3A0-4ABE-91BF-D396BB57D9C9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_BRASS" ID="{02C11ECA-AAEB-424D-B380-3D2859114555}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="233.539881154789"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_BRASS" ID="{5E1D647C-45A5-43A4-9745-B7B928BE307A}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{5C2DE6B3-959A-46AF-9932-81DE96D49AE5}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{7F268B4A-D9AB-4999-B0B3-657C3A098D1A}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{5499DCD7-EE26-46EC-9F6B-F2D619C2C7F8}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_CLARINET" ID="{B03A443B-E42A-4330-972F-A5C05C6A3730}" ShortID="945419425">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{FCD05E45-5351-499F-9588-674B544ACCBF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_CLARINET" ID="{C2E74151-13E3-4BA2-992F-6FF3593DD36D}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_CLARINET.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365105536"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{03E9D1DC-C053-4AB3-A15D-8F09B9E416CB}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_CLARINET" ID="{2393DDE8-CDBF-44F5-8696-D245AD8DA402}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="200.177040989819"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_CLARINET" ID="{C2E74151-13E3-4BA2-992F-6FF3593DD36D}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{74F76EBC-B331-4481-AD82-12BCF43B08A8}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{AD005A18-8EDD-4F1D-BD72-FAB2C89F5229}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{68DD3E44-6397-4E9D-9960-F121C61942BF}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_PERC_UNPITCHED" ID="{4E65546F-0B81-43C9-B95D-DAC9274E1ED4}" ShortID="670458492">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{53DF47FE-EFCF-4E91-95CB-0916F1A6A17E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_PERC_UNPITCHED" ID="{3CE3E204-E6D8-4813-BF71-AA5A43541AD9}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_PERC_UNPITCHED.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62118199"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{EA35B642-8D62-49FA-ADB3-4B5F762C0B17}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_PERC_UNPITCHED" ID="{2E21D5EB-731D-4136-827E-E0E840BE9150}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="200.17704098982"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_PERC_UNPITCHED" ID="{3CE3E204-E6D8-4813-BF71-AA5A43541AD9}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{30C100F7-6637-4947-8496-996E79CC44EC}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{794F0CDF-1041-4539-A53D-6434EBCBAA72}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{7B9AC563-BB21-48DB-8F41-5EBD625051CB}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_STRINGS" ID="{3937BC5B-FB09-4EA1-BE70-F3ED6760ADEA}" ShortID="603804876">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{48FE541D-9E29-4777-AB18-6D934D779C52}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_STRINGS" ID="{A3732B90-B3D6-497F-9E71-6F81FB187C38}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_STRINGS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="352397577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0D9E0433-20D9-47A8-9603-965505ABF84D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_STRINGS" ID="{580B816E-4E5E-4F3B-B80D-C5E47FB769DA}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="200.177040989819"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_STRINGS" ID="{A3732B90-B3D6-497F-9E71-6F81FB187C38}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{8B52FBE1-96B2-4965-8AAD-1B7FD450FA3A}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{5C84F697-6B1C-4369-B967-33F18621F680}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{B143A2EC-3FDB-4F09-B297-8228B61E494A}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_TAMBOURINE" ID="{36E921B7-F97F-4BBE-ADF3-3C380547ED14}" ShortID="309259272">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4FAE7EDB-6F4A-4BC2-9B05-42DF03C4470D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_TAMBOURINE" ID="{8ED4582A-1073-4243-B4A5-F58FA1517894}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_TAMBOURINE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458268877"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4D8A9DB5-5BE0-4932-B48A-8B03CEA12E4B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_TAMBOURINE" ID="{743505F5-F16C-481F-9409-2D67B6FA79D1}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="200.177040989819"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_TAMBOURINE" ID="{8ED4582A-1073-4243-B4A5-F58FA1517894}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{953050B3-1E20-42DF-9DE7-0F2813188D04}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{C209EB1A-71A8-42E1-8F3A-771A78CF0B6F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{00D68309-357A-4F45-919A-26AD8421391C}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="FORTE_CONCERT_MUS_180_WOODWIND" ID="{4B811B53-8D5D-4073-AA69-8024E9AE200E}" ShortID="396878301">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{F8CCE397-3DA9-474B-9E80-E67AB70139A3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FORTE_CONCERT_MUS_180_WOODWIND" ID="{39A86D5C-90D5-4032-A70C-48EBAC4088F2}">
+											<Language>SFX</Language>
+											<AudioFile>FORTE_CONCERT_MUS_180_WOODWIND.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298367116"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E12E7A61-9C77-4105-BFAC-8141C6A609E8}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="FORTE_CONCERT_MUS_180_WOODWIND" ID="{1E82A79E-92BD-487C-A342-3A962CD8CEEB}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="-2.93293167530351E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="41000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="183.495620907335"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="1000"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="FORTE_CONCERT_MUS_180_WOODWIND" ID="{39A86D5C-90D5-4032-A70C-48EBAC4088F2}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{08061281-C4A9-43BB-85F5-B0791F9AFE82}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{2753EB1C-26C6-43CC-9019-D12D697E1903}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{F83E243C-BA0B-43D5-9293-9B2DBF03B91D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>-0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>41</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{A38536F2-2765-4D61-85DB-9E38F9E12E61}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="3000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{3DD0D3AA-CDD7-4631-AF42-64509D798D43}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="41000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="INTRO" ID="{4D249FF9-6D8B-41B4-B291-0032B13764AE}" ShortID="166320112">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{A85D53B3-2489-4660-B4BA-2FAA48C16DC7}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B75E5E23-ADF4-4DED-B5C2-EA251CEA45B2}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="MAIN_MENU" ID="{B20952C8-0D10-46D5-9498-6AE91DC7BE00}" ShortID="713407224">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BADA1B78-1EEE-447B-AE27-AE552F47AC1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{744275C4-0EB4-4B2B-9FFB-745305B326B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B21F540B-BA9B-41F6-8DF2-8F08E921ABE1}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{43F83D9F-C083-4ECE-A231-02E5E04F6AF8}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9402811-5D65-4E1D-B270-3B87DD6FFCE1}" SchemaVersion="123" RootDocumentID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}" ParentDocumentID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}">
+	<States>
+		<WorkUnit Name="MUSIC STATES" ID="{A9402811-5D65-4E1D-B270-3B87DD6FFCE1}" OwnerID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="CONCERT" ID="{289C2CE1-AA2E-4707-962B-DD00A0B4BC24}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{78D24BE3-73E0-496A-94C2-B04F6A323912}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="INTRO" ID="{50D2A5E0-E6B5-49AC-9CBB-29065DE2597F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{04E7DFFA-FF3A-4B43-8DA1-5134AAECDCC7}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MAIN_GAMEPLAY" ID="{C3A0BE83-EC42-49CE-A8F1-8CE3E5ED5AAC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{90E15685-B3AA-4CD2-9287-52DCFE04E30E}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MAIN_MENU" ID="{6E35D38A-4249-4B74-B544-6AAD6F58CED1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{6991C106-24F9-488A-A772-5275CF7F5CDB}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
