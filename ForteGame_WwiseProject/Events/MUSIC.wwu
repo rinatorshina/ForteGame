@@ -17,7 +17,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ON" ID="{B15D0591-0BB7-4AC1-B29D-F7B0BA151204}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -31,7 +35,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OFF" ID="{8A3FF094-CBC1-4C54-B48A-8A91F0844C71}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -45,7 +53,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ON" ID="{447582BA-1488-4B29-B95B-B5B2A953ECE0}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -59,7 +71,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OFF" ID="{7A34CC0C-9950-4CE9-877D-4AE16E67FC25}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -73,7 +89,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ON" ID="{E6A1DD1E-8D3E-43EC-9D59-455428DA4984}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -87,7 +107,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OFF" ID="{652876A3-80B8-4987-9717-2304AA0C32D4}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -101,7 +125,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ON" ID="{5A6BE1CF-34DC-434B-B530-0432D111D6F7}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -115,7 +143,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OFF" ID="{4D97E68B-FBB2-4B86-99E7-0A5EDA1BF406}" WorkUnitID="{5F2FE39D-7492-491F-B1DA-CD54F8F3A6D6}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -163,7 +195,7 @@
 						<Action Name="" ID="{76DB7931-9701-481A-94F1-9292CD8D92FE}" ShortID="1060823474">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="INTRO" ID="{8A2551BE-EDA4-4D0C-9C7F-EE51A86FBD1D}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+									<ObjectRef Name="INTRO" ID="{4D249FF9-6D8B-41B4-B291-0032B13764AE}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -188,7 +220,7 @@
 						<Action Name="" ID="{B894BE23-60D2-4075-B312-57BE15C47D03}" ShortID="583003927">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CONCERT" ID="{48B461FE-C778-4E07-813B-EAF65BE38581}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+									<ObjectRef Name="CONCERT" ID="{15E9C8EB-076D-4329-BFE0-612C3CEA7DCC}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -213,7 +245,7 @@
 						<Action Name="" ID="{EFD4535A-50C3-473C-8214-5C95478CF20C}" ShortID="846183495">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MAIN MENU" ID="{DD9351C9-0497-46D9-B10E-724359214CAE}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+									<ObjectRef Name="MAIN_MENU" ID="{B20952C8-0D10-46D5-9498-6AE91DC7BE00}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

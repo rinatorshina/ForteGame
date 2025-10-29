@@ -7,40 +7,33 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<StateGroup Name="CONCERT" ID="{289C2CE1-AA2E-4707-962B-DD00A0B4BC24}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<StateGroup Name="GAMESTATE" ID="{227B6159-268B-4C6B-9726-98E66F715852}">
 					<ChildrenList>
-						<State Name="None" ID="{78D24BE3-73E0-496A-94C2-B04F6A323912}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="INTRO" ID="{50D2A5E0-E6B5-49AC-9CBB-29065DE2597F}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{04E7DFFA-FF3A-4B43-8DA1-5134AAECDCC7}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="MAIN_GAMEPLAY" ID="{C3A0BE83-EC42-49CE-A8F1-8CE3E5ED5AAC}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{90E15685-B3AA-4CD2-9287-52DCFE04E30E}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="MAIN_MENU" ID="{6E35D38A-4249-4B74-B544-6AAD6F58CED1}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="14"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{6991C106-24F9-488A-A772-5275CF7F5CDB}"/>
+						<State Name="None" ID="{7DD263AD-7C0F-4671-B477-232013558B16}"/>
+						<State Name="CONCERT" ID="{CC21FAF4-D5DE-4A95-B9E2-B9E71A047BE4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="MAIN_GAMEPLAY" ID="{0A6CF4FC-AFB1-4F42-B2FB-CC1FC02ACCAF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="MAIN_MENU" ID="{DE5CEEC4-3446-4CCA-87DA-01083BEE1871}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="INTRO" ID="{FC09F8BF-F5FD-4F9B-833D-B7AAF0161ECE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

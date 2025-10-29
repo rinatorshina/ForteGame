@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{91ECF437-4AC0-448B-A424-3D49AEB26346}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{91ECF437-4AC0-448B-A424-3D49AEB26346}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{91ECF437-4AC0-448B-A424-3D49AEB26346}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MUSIC" ID="{498E96C1-2EC7-4E70-BFAB-D3D22E877E8D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_CONCERT" ID="{0D9F8DC3-7CFC-43D3-A0B1-7248B4969317}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MAIN GAMEPLAY" ID="{B4A6044E-5A14-426E-A613-09D29039DF2C}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_INTRO" ID="{9062D005-09A1-4182-8F4C-25915374DFF7}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SECTION A" ID="{DDD47046-963D-4B50-AA8F-F7C3860AEEE7}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SECTION B" ID="{D919E9D7-624B-4B52-B09A-2DB09718E938}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SECTION C" ID="{DDEB6BBA-B70D-433A-A4E7-83E145773B63}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
