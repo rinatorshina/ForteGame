@@ -6,28 +6,44 @@
 				<SoundcasterSession Name="MUSIC" ID="{498E96C1-2EC7-4E70-BFAB-D3D22E877E8D}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_CONCERT" ID="{0D9F8DC3-7CFC-43D3-A0B1-7248B4969317}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<ObjectRef Name="Play_MAIN_MENU" ID="{8F6BF86D-DD45-4AF5-BAB4-920345A5BD10}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MAIN GAMEPLAY" ID="{B4A6044E-5A14-426E-A613-09D29039DF2C}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<ObjectRef Name="Play_INTRO" ID="{9062D005-09A1-4182-8F4C-25915374DFF7}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MAIN_GAMEPLAY" ID="{40327053-A3D5-4B81-A20A-9837EB13F049}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_INTRO" ID="{9062D005-09A1-4182-8F4C-25915374DFF7}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<ObjectRef Name="Play_CONCERT" ID="{0D9F8DC3-7CFC-43D3-A0B1-7248B4969317}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_MAIN_MENU" ID="{A308EFA9-D2CF-476E-9E73-C14D2A5B2443}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SECTION A" ID="{DDD47046-963D-4B50-AA8F-F7C3860AEEE7}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<ObjectRef Name="Mute_INTRO" ID="{AB1AA0FE-D034-42D1-9E92-1862AE0EC350}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SECTION B" ID="{D919E9D7-624B-4B52-B09A-2DB09718E938}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Stop_MAIN_GAMEPLAY" ID="{5ED2F632-3A2B-4682-8E88-F62D06A5DF00}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SECTION C" ID="{DDEB6BBA-B70D-433A-A4E7-83E145773B63}" WorkUnitID="{58E97663-BB1E-478E-A290-A5E79C2AC437}"/>
+							<ObjectRef Name="Stop_CONCERT" ID="{9114FF75-1341-488D-806E-CB9F1A65ACE6}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Unmute_INTRO" ID="{0AA4C5F1-412F-4EC6-8CD5-B5AF761FD98D}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_INTRO" ID="{1090E8F8-CA6D-487A-B431-2E725E5F05F4}" WorkUnitID="{F201D4CD-B609-4DC6-8BDD-F0EAEAFCFDE4}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
