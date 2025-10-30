@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9402811-5D65-4E1D-B270-3B87DD6FFCE1}" SchemaVersion="123" RootDocumentID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}" ParentDocumentID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}">
+	<States>
+		<WorkUnit Name="MUSIC STATES" ID="{A9402811-5D65-4E1D-B270-3B87DD6FFCE1}" OwnerID="{D9ACB62B-E6E7-4594-B0BA-6113AF98D0B2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="GAMESTATE" ID="{227B6159-268B-4C6B-9726-98E66F715852}">
+					<ChildrenList>
+						<State Name="None" ID="{7DD263AD-7C0F-4671-B477-232013558B16}"/>
+						<State Name="CONCERT" ID="{CC21FAF4-D5DE-4A95-B9E2-B9E71A047BE4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="MAIN_GAMEPLAY" ID="{0A6CF4FC-AFB1-4F42-B2FB-CC1FC02ACCAF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="MAIN_MENU" ID="{DE5CEEC4-3446-4CCA-87DA-01083BEE1871}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+						<State Name="INTRO" ID="{FC09F8BF-F5FD-4F9B-833D-B7AAF0161ECE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
