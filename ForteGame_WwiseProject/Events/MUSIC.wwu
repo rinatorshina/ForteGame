@@ -259,8 +259,8 @@
 					<ChildrenList>
 						<Action Name="" ID="{3379AF0E-D07B-46EF-8E52-F2FF9B22989A}" ShortID="645655760">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="26"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 								<Property Name="Lowpass" Type="int16" Value="100"/>
 							</PropertyList>
 							<ReferenceList>
@@ -279,7 +279,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{2A22C306-716A-4A2D-A4D0-106BB87E0765}" ShortID="466013409">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="27"/>
+								<Property Name="ActionType" Type="int16" Value="5"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
