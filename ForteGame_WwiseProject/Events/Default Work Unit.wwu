@@ -1,6 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Bedroom_Atmos_Reality" ID="{35132B3E-9796-4D3B-8934-2EB8DB7521B7}">
+					<ChildrenList>
+						<Action Name="" ID="{32A8D237-0224-48F1-9C0B-8A1B57000A4B}" ShortID="46012845">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bedroom_Atmos_Reality" ID="{31F94AA2-423F-4CC3-949D-14C23417C331}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Bedroom_Atmos_Reality" ID="{0A54BAEA-18BF-4F52-A02B-F7BD8566ED19}">
+					<ChildrenList>
+						<Action Name="" ID="{F717B02B-FA30-4FFE-9302-D32282F77469}" ShortID="512560164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bedroom_Atmos_Reality" ID="{31F94AA2-423F-4CC3-949D-14C23417C331}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Argument_Dialogue_Intensity1" ID="{71827001-5879-47C9-97FD-AA2451F8FD62}">
+					<ChildrenList>
+						<Action Name="" ID="{1B4C634A-7F58-4607-B6DF-4AF19F926D01}" ShortID="590226302">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Argument_Dialogue_Intensity1" ID="{A31CBE23-B7F9-48FC-913C-1D0EC220CFD5}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Argument_Dialogue_Intensity1" ID="{BF24552A-24A0-414C-88A9-ADFB431A410A}">
+					<ChildrenList>
+						<Action Name="" ID="{2CFD108C-F627-4D99-A26C-689D944E572B}" ShortID="60416104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Argument_Dialogue_Intensity1" ID="{A31CBE23-B7F9-48FC-913C-1D0EC220CFD5}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Argument_Dialogue_Intensity2" ID="{FCC2418E-AA2B-4236-906A-51F70C9FCBF7}">
+					<ChildrenList>
+						<Action Name="" ID="{70106D88-82FD-416E-AE6E-0006B8D10547}" ShortID="498730725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Argument_Dialogue_Intensity2" ID="{9A6649DC-CF02-4CDC-9046-6955EDC5A94C}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Argument_Dialogue_Intensity3" ID="{4A22D072-56BA-4FDE-86C5-ABF1D9453E31}">
+					<ChildrenList>
+						<Action Name="" ID="{1DA93D38-B91A-4FB2-91D2-687C44453DAD}" ShortID="511067489">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Argument_Dialogue_Intensity3" ID="{3CC67418-6B14-453E-8CE0-B9FB9658DB9F}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Slam" ID="{19AE2816-0460-46DA-A96F-20847C69AE7A}">
+					<ChildrenList>
+						<Action Name="" ID="{5C7AF992-4646-44EE-875C-A3B486C5D0E8}" ShortID="520917844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Slam" ID="{F93200DA-CC82-49F6-9398-1A56C92C471B}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_End_Scene_Combined" ID="{ED196D78-85E3-4457-965D-3FB5DBF13E61}">
+					<ChildrenList>
+						<Action Name="" ID="{61591B98-B5C5-4AA6-B5B2-2D6F75C921B5}" ShortID="591488516">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="End_Scene_Combined" ID="{0A678DFF-546A-44A5-8168-9BAC30928490}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Argument_Dialogue_Intensity2" ID="{7E233374-DB71-4ECF-BE49-330CA849DDEA}">
+					<ChildrenList>
+						<Action Name="" ID="{8ABD25A4-D52D-4EA1-A650-AAFB0303DE99}" ShortID="1025552920">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Argument_Dialogue_Intensity2" ID="{9A6649DC-CF02-4CDC-9046-6955EDC5A94C}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Argument_Dialogue_Intensity3" ID="{21003EE0-8B5F-4E64-AB91-A5BC51C4E6E5}">
+					<ChildrenList>
+						<Action Name="" ID="{46FD1BCA-DB03-406B-BFB8-C7B70E4CE237}" ShortID="145558995">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Argument_Dialogue_Intensity3" ID="{3CC67418-6B14-453E-8CE0-B9FB9658DB9F}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Door_Slam" ID="{B3258C15-C8CA-4C9F-8475-3D050048C94B}">
+					<ChildrenList>
+						<Action Name="" ID="{4697B6E2-3319-496C-8914-D5EFE5D32BA1}" ShortID="954119354">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Slam" ID="{F93200DA-CC82-49F6-9398-1A56C92C471B}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_End_Scene_Combined" ID="{0AB0EC06-30A9-429A-B25A-F036CF5164C3}">
+					<ChildrenList>
+						<Action Name="" ID="{70A7B8CF-DBCE-4905-8BE4-1528874C5988}" ShortID="718330110">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="End_Scene_Combined" ID="{0A678DFF-546A-44A5-8168-9BAC30928490}" WorkUnitID="{DCEF7DCA-27B5-4EBB-A749-88680691E593}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

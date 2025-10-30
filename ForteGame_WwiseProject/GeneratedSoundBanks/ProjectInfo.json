@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "ForteGame_WwiseProject",
+   "GUID": "{C3F73EA5-E439-4ACC-A008-D56AA1802A7D}",
+   "Generator": "2024.1.9.8920"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{E88379F4-AB96-4F42-8CFF-04171AF34E90}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{EE14A0A3-E7A9-4C32-B524-5317C50DDC5F}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{89283BC6-C205-4E3A-8E6F-C91C16674CFF}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{07AD9699-6D9F-7BC8-2887-FB823D6763B1}"
+ }
+}

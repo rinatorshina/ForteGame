@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B0759734-DFA6-4067-89D3-F1D53E3C65E1}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{B0759734-DFA6-4067-89D3-F1D53E3C65E1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B0759734-DFA6-4067-89D3-F1D53E3C65E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="RealityBank" ID="{BC885E1E-8878-43A9-89DD-AFC673391D77}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Argument_Dialogue_Intensity1" ID="{BF24552A-24A0-414C-88A9-ADFB431A410A}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Argument_Dialogue_Intensity2" ID="{FCC2418E-AA2B-4236-906A-51F70C9FCBF7}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_End_Scene_Combined" ID="{0AB0EC06-30A9-429A-B25A-F036CF5164C3}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_End_Scene_Combined" ID="{ED196D78-85E3-4457-965D-3FB5DBF13E61}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Slam" ID="{19AE2816-0460-46DA-A96F-20847C69AE7A}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Argument_Dialogue_Intensity1" ID="{71827001-5879-47C9-97FD-AA2451F8FD62}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Door_Slam" ID="{B3258C15-C8CA-4C9F-8475-3D050048C94B}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bedroom_Atmos_Reality" ID="{35132B3E-9796-4D3B-8934-2EB8DB7521B7}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Argument_Dialogue_Intensity3" ID="{21003EE0-8B5F-4E64-AB91-A5BC51C4E6E5}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Argument_Dialogue_Intensity2" ID="{7E233374-DB71-4ECF-BE49-330CA849DDEA}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Bedroom_Atmos_Reality" ID="{0A54BAEA-18BF-4F52-A02B-F7BD8566ED19}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Argument_Dialogue_Intensity3" ID="{4A22D072-56BA-4FDE-86C5-ABF1D9453E31}" WorkUnitID="{95C4E9DF-E839-42F7-A283-85FAEE706A77}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	940621990	Play_Door_Slam			\Default Work Unit\Play_Door_Slam	
+	1009498214	Stop_Bedroom_Atmos_Reality			\Default Work Unit\Stop_Bedroom_Atmos_Reality	
+	2130588441	Stop_Argument_Dialogue_Intensity1			\Default Work Unit\Stop_Argument_Dialogue_Intensity1	
+	2130588442	Stop_Argument_Dialogue_Intensity2			\Default Work Unit\Stop_Argument_Dialogue_Intensity2	
+	2130588443	Stop_Argument_Dialogue_Intensity3			\Default Work Unit\Stop_Argument_Dialogue_Intensity3	
+	2423769384	Stop_End_Scene_Combined			\Default Work Unit\Stop_End_Scene_Combined	
+	2447393756	Stop_Door_Slam			\Default Work Unit\Stop_Door_Slam	
+	3234265512	Play_Argument_Dialogue_Intensity2			\Default Work Unit\Play_Argument_Dialogue_Intensity2	
+	3234265513	Play_Argument_Dialogue_Intensity3			\Default Work Unit\Play_Argument_Dialogue_Intensity3	
+	3234265515	Play_Argument_Dialogue_Intensity1			\Default Work Unit\Play_Argument_Dialogue_Intensity1	
+	3539210232	Play_Bedroom_Atmos_Reality			\Default Work Unit\Play_Bedroom_Atmos_Reality	
+	3692603810	Play_End_Scene_Combined			\Default Work Unit\Play_End_Scene_Combined	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	37217023	End_Scene_Combined	C:\Users\karina.torshina\Desktop\Synthespians\ForteGame\ForteGame_WwiseProject\.cache\11\{119248F3-0145-2A4E-0732-6A6FC7A5DC9F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\From Kyle Deliverables\End_Scene_Combined		5969756
+	138706386	Argument_Dialogue_Intensity3	C:\Users\karina.torshina\Desktop\Synthespians\ForteGame\ForteGame_WwiseProject\.cache\0F\{0F8B6EAF-40E3-1D04-3F39-979C7196C426}.wem		\Actor-Mixer Hierarchy\Default Work Unit\From Kyle Deliverables\Argument_Dialogue_Intensity3		9449080
+	370559913	Argument_Dialogue_Intensity1	C:\Users\karina.torshina\Desktop\Synthespians\ForteGame\ForteGame_WwiseProject\.cache\53\{53BFB3CD-BA71-D927-5A74-A2806C012ECA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\From Kyle Deliverables\Argument_Dialogue_Intensity1		3605088
+	406447910	Argument_Dialogue_Intensity2	C:\Users\karina.torshina\Desktop\Synthespians\ForteGame\ForteGame_WwiseProject\.cache\1B\{1BB3EC2C-01A5-BF0F-A153-D9783FC37198}.wem		\Actor-Mixer Hierarchy\Default Work Unit\From Kyle Deliverables\Argument_Dialogue_Intensity2		6450926
+	715158228	Bedroom_Atmos_Reality	C:\Users\karina.torshina\Desktop\Synthespians\ForteGame\ForteGame_WwiseProject\.cache\CF\{CFB4EEA1-909C-E888-46D3-FB20DF9392AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\From Kyle Deliverables\Bedroom_Atmos_Reality		26281056
+	1066016826	Door_Slam	C:\Users\karina.torshina\Desktop\Synthespians\ForteGame\ForteGame_WwiseProject\.cache\B7\{B7530EB7-1DF4-21BB-5AD9-1B9C5748A80A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\From Kyle Deliverables\Door_Slam		2244216
+

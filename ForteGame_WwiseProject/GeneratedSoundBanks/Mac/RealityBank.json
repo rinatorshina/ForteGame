@@ -1,0 +1,215 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1393383973",
+    "Type": "User",
+    "GUID": "{BC885E1E-8878-43A9-89DD-AFC673391D77}",
+    "Language": "SFX",
+    "Hash": "{23627D3A-1F3B-D1CD-A734-B52E0060A9BF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RealityBank",
+    "ShortName": "RealityBank",
+    "Path": "RealityBank.bnk",
+    "Media": [
+     {
+      "Id": "37217023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "From Kyle Deliverables\\End_Scene_Combined.wav",
+      "CachePath": "11/{119248F3-0145-2A4E-0732-6A6FC7A5DC9F}.wem"
+     },
+     {
+      "Id": "138706386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "From Kyle Deliverables\\Argument_Dialogue_Intensity3.wav",
+      "CachePath": "0F/{0F8B6EAF-40E3-1D04-3F39-979C7196C426}.wem"
+     },
+     {
+      "Id": "370559913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "From Kyle Deliverables\\Argument_Dialogue_Intensity1.wav",
+      "CachePath": "53/{53BFB3CD-BA71-D927-5A74-A2806C012ECA}.wem"
+     },
+     {
+      "Id": "406447910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "From Kyle Deliverables\\Argument_Dialogue_Intensity2.wav",
+      "CachePath": "1B/{1BB3EC2C-01A5-BF0F-A153-D9783FC37198}.wem"
+     },
+     {
+      "Id": "715158228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "From Kyle Deliverables\\Bedroom_Atmos_Reality.wav",
+      "CachePath": "CF/{CFB4EEA1-909C-E888-46D3-FB20DF9392AF}.wem"
+     },
+     {
+      "Id": "1066016826",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "From Kyle Deliverables\\Door_Slam.wav",
+      "CachePath": "B7/{B7530EB7-1DF4-21BB-5AD9-1B9C5748A80A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3234265515",
+      "Name": "Play_Argument_Dialogue_Intensity1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Argument_Dialogue_Intensity1",
+      "GUID": "{71827001-5879-47C9-97FD-AA2451F8FD62}",
+      "DurationType": "OneShot",
+      "DurationMin": "37.552",
+      "DurationMax": "37.552",
+      "MediaRefs": [
+       {
+        "Id": "370559913"
+       }
+      ]
+     },
+     {
+      "Id": "3234265512",
+      "Name": "Play_Argument_Dialogue_Intensity2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Argument_Dialogue_Intensity2",
+      "GUID": "{FCC2418E-AA2B-4236-906A-51F70C9FCBF7}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.196144",
+      "DurationMax": "67.196144",
+      "MediaRefs": [
+       {
+        "Id": "406447910"
+       }
+      ]
+     },
+     {
+      "Id": "3234265513",
+      "Name": "Play_Argument_Dialogue_Intensity3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Argument_Dialogue_Intensity3",
+      "GUID": "{4A22D072-56BA-4FDE-86C5-ABF1D9453E31}",
+      "DurationType": "OneShot",
+      "DurationMin": "98.42692",
+      "DurationMax": "98.42692",
+      "MediaRefs": [
+       {
+        "Id": "138706386"
+       }
+      ]
+     },
+     {
+      "Id": "3539210232",
+      "Name": "Play_Bedroom_Atmos_Reality",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bedroom_Atmos_Reality",
+      "GUID": "{35132B3E-9796-4D3B-8934-2EB8DB7521B7}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "715158228"
+       }
+      ]
+     },
+     {
+      "Id": "940621990",
+      "Name": "Play_Door_Slam",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Door_Slam",
+      "GUID": "{19AE2816-0460-46DA-A96F-20847C69AE7A}",
+      "DurationType": "OneShot",
+      "DurationMin": "23.37625",
+      "DurationMax": "23.37625",
+      "MediaRefs": [
+       {
+        "Id": "1066016826"
+       }
+      ]
+     },
+     {
+      "Id": "3692603810",
+      "Name": "Play_End_Scene_Combined",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_End_Scene_Combined",
+      "GUID": "{ED196D78-85E3-4457-965D-3FB5DBF13E61}",
+      "DurationType": "OneShot",
+      "DurationMin": "31.09198",
+      "DurationMax": "31.09198",
+      "MediaRefs": [
+       {
+        "Id": "37217023"
+       }
+      ]
+     },
+     {
+      "Id": "2130588441",
+      "Name": "Stop_Argument_Dialogue_Intensity1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Argument_Dialogue_Intensity1",
+      "GUID": "{BF24552A-24A0-414C-88A9-ADFB431A410A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2130588442",
+      "Name": "Stop_Argument_Dialogue_Intensity2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Argument_Dialogue_Intensity2",
+      "GUID": "{7E233374-DB71-4ECF-BE49-330CA849DDEA}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2130588443",
+      "Name": "Stop_Argument_Dialogue_Intensity3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Argument_Dialogue_Intensity3",
+      "GUID": "{21003EE0-8B5F-4E64-AB91-A5BC51C4E6E5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1009498214",
+      "Name": "Stop_Bedroom_Atmos_Reality",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Bedroom_Atmos_Reality",
+      "GUID": "{0A54BAEA-18BF-4F52-A02B-F7BD8566ED19}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2447393756",
+      "Name": "Stop_Door_Slam",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Door_Slam",
+      "GUID": "{B3258C15-C8CA-4C9F-8475-3D050048C94B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2423769384",
+      "Name": "Stop_End_Scene_Combined",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_End_Scene_Combined",
+      "GUID": "{0AB0EC06-30A9-429A-B25A-F036CF5164C3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{73AFB963-32A5-D69E-8FDB-8482CEEF818E}"
+ }
+}
